@@ -8,8 +8,4 @@ int main() {
     }
   }
   printf("sum is %d\n", sum);
-  return 0;
 }
-    
-
-  
