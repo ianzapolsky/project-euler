@@ -1,4 +1,1 @@
-sumMultiplesBelowX :: Integer -> Integer -> Integer
-sumMultiplesBelowX n x = sum ([n,2*n..x-1])
-
-problem1 = (sumMultiplesBelowX 3 1000) + (sumMultiplesBelowX 5 1000)
+problem1 = sum [x | x <- [1..999], x `mod` 3 == 0 || x `mod` 5 == 0]
